@@ -1,36 +1,45 @@
-# Logs
-logs
-*.log
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
+.pnpm-debug.log*
 
-node_modules
+dist/
+dist-ssr/
+*.out
+temp/
+out/
+
+.idea/
+.vscode/
+*.swp
+*.swo
 .DS_Store
-dist
-dist-ssr
-coverage
-*.local
+*.sublime-project
+*.sublime-workspace
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+.env.local
+.env.*.local
+.env.development.local
+.env.production.local
 
-*.tsbuildinfo
+logs
+*.log
 
-.eslintcache
+Thumbs.db
+ehthumbs.db
 
-# Cypress
-/cypress/videos/
-/cypress/screenshots/
+.vite/
+.cache/
+.cache/vite/
 
-# Vitest
-__screenshots__/
+gh-pages/
+
+Desktop.ini
+
+*.zip
+*.tar.gz
+*.exe
+*.dll
+*.so
